@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>FORM</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="header">
+    <ul class="menu">
+      <li class="registration">
+        <p>Ola! <a href="https://www.google.com.ua/" target="_blank">Entrar</a> ou <a href="https://www.google.com.ua/" target="_blank">Cadastre-se</a></p>
+      </li>
+      <li class="flag">
+        <a href="https://www.google.com.ua/" target="_blank">
+          <ul class="subflag">
+            <li class="image"><img src="img/picture.png" alt="not found"></li>
+            <li class="text">
+              <span>Minhas Ofertas</span>
+            </li>
+          </ul>
+        </a>
+      </li>
+      <li>
+        <ul class="submenu">
+          <li><a href="https://www.google.com.ua/" target="_blank">Meu YouBike</a></li>
+          <li><a href="https://www.google.com.ua/" target="_blank">Vender</a></li>
+          <li><a href="https://www.google.com.ua/" target="_blank">Forum</a></li>
+          <li><a href="https://www.google.com.ua/" target="_blank">Contato</a></li>
+          <li><a href="https://www.google.com.ua/" target="_blank">Ajuda</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="wrapper">
+    <div class="form_conteiner">
+      <div class="form_header">
+        <p>Cadastre-se</p>
+      </div>
+      <div class="form_body">
+        <div class="fb">
+          <a href="https://www.google.com.ua/" target="_blank"><img src="img/facebook.png" alt="not found"></a>
+        </div>
+        <form action="index.html" method="post">
+          <fieldset>
+            <legend>OU</legend>
+            <div class="data">
+              <input type="text" name="first_name" placeholder="First name">
+            </div>
+            <div class="data">
+              <input type="text" name="last_name" placeholder="Last name">
+            </div>
+            <div class="data">
+              <input type="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="data">
+              <input type="password" name="password" placeholder="Choose Password">
+            </div>
+            <div class="data">
+              <input type="password" name="password" placeholder="Password Confirm">
+            </div>
+            <label>
+              <input type="checkbox" class="permission" name="permission">
+              <span class="agree">Send me Youbike updates and tips</span>
+            </label>
+            <div class="data">
+              <input type="submit" class="button" name="Submit" value="Create my Account">
+            </div>
+            <p class="warning">By clicking the button above, you agree to the Terms of Service</p>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
